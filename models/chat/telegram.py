@@ -2,7 +2,7 @@ from re import compile as re_compile
 from requests import get, exceptions, Timeout
 #raetarvq_bot
 #t.me/raetarvq_bot
-#5708021739:AAEuFlb0tK6UjUKebyp5-1dch2WG021ABIQ
+#5708021739:AAEuFlb0tK6UjUKebyp5-1dch2WG021ABIQt.me/raetarvq_bot
 #https://api.telegram.org/bot5708021739:AAEuFlb0tK6UjUKebyp5-1dch2WG021ABIQ/getMe
 #get the chat_id : #https://api.telegram.org/bot5708021739:AAEuFlb0tK6UjUKebyp5-1dch2WG021ABIQ/getUpdates
 
@@ -53,9 +53,10 @@ class Telegram():
         return json
 
 if __name__=='__main__':
-
-    telegram = Telegram(token='5708021739:AAEuFlb0tK6UjUKebyp5-1dch2WG021ABIQ', client_id='5568877721')
-    message = "I am a robot"
+    #5568877721 aadil 
+    #5708021739 thomas
+    telegram = Telegram(token='5708021739:AAEuFlb0tK6UjUKebyp5-1dch2WG021ABIQ', client_id='5729186934')
+    message = "Hello Thomas, I am a robot"
     telegram.send(message)
     #message = 'un message'
     #print(message.translate(message.maketrans({"*":  r"\*"})))
